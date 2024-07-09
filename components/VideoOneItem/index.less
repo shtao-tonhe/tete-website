@@ -1,0 +1,25 @@
+.animate-route {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeRoute;
+}
+.video-img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: calc(100% + 20px);
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .video-img {
+    height: calc(100% + 55px);
+  }
+}
+
+@keyframes fadeRoute {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

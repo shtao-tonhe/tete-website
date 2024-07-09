@@ -1,0 +1,199 @@
+.about-container {
+  width: 100%;
+}
+.about-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: auto;
+}
+
+.is-rtl .about-content {
+  direction: rtl;
+}
+
+.about-content.is-rtl {
+  direction: rtl;
+}
+
+.about-content .about-mobile-title {
+  display: none;
+}
+
+.about-content .about-img,
+.about-content .about-article {
+  flex: 1 1 50%;
+}
+
+.about-content .about-img {
+  position: relative;
+}
+
+.about-content .about-img .banner-video-container,
+.about-content .about-img .banner-video-mobile {
+  padding-top: 177.77778%;
+}
+
+@media (min-width: 1200px) {
+  .about-content .about-img .banner-video-container,
+  .about-content .about-img .banner-video-mobile {
+    padding-top: 88.88889%;
+  }
+}
+
+.about-content .about-article {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0 9.0278%;
+  box-sizing: border-box;
+}
+
+.about-content .about-article h1 {
+  font-family: "sofiapro-bold", PingFangSC, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+html[lang^="vi"] .about-content .about-article h1 {
+  font-family: "IBM Plex Sans", "sofiapro-bold", PingFangSC, sans-serif;
+}
+
+.about-content .about-article .subtitle {
+  font-family: "sofiapro-medium", PingFangSC, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 32px;
+  color: #4f535a;
+}
+
+html[lang^="vi"] .about-content .about-article .subtitle {
+  font-family: "IBM Plex Sans", "sofiapro-medium", PingFangSC, sans-serif;
+}
+
+.about-content .about-article .text-body {
+  font-family: "proxima-regular", PingFangSC, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #4f535a;
+}
+
+html[lang^="vi"] .about-content .about-article .text-body {
+  font-family: "IBM Plex Sans", "proxima-regular", PingFangSC, sans-serif;
+}
+
+@media (max-width: 1199px) {
+  .about-content {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .about-content .about-mobile-title {
+    display: block;
+  }
+
+  .about-content .about-mobile-title h1 {
+    font-family: "sofiapro-bold", PingFangSC, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    width: 325px;
+    font-size: 48px;
+    line-height: 1;
+    width: 100%;
+  }
+
+  html[lang^="vi"] .about-content .about-mobile-title h1 {
+    font-family: "IBM Plex Sans", "sofiapro-bold", PingFangSC, sans-serif;
+  }
+
+  .about-content .about-mobile-title h2 {
+    width: 325px;
+    margin-top: 26px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .about-content .about-img {
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+    margin-top: 32px;
+    padding-top: 0;
+  }
+
+  .about-content .about-img .banner-video-container,
+  .about-content .about-img .banner-video-mobile {
+    padding-top: 59.25926%;
+  }
+
+  .about-content .about-article {
+    width: 325px;
+    padding: 0;
+    margin: auto;
+    margin-top: 74px;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .about-content .about-article .title1 {
+    display: none;
+  }
+  .about-content .about-article .title2 {
+    display: none;
+  }
+
+  .about-content .about-article .subtitle {
+    font-family: "proxima-regular", PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161823;
+  }
+
+  html[lang^="vi"] .about-content .about-article .subtitle {
+    font-family: "IBM Plex Sans", "proxima-regular", PingFangSC, sans-serif;
+  }
+
+  .about-content .about-article .text-body {
+    font-family: "proxima-regular", PingFangSC, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  html[lang^="vi"] .about-content .about-article .text-body {
+    font-family: "IBM Plex Sans", "proxima-regular", PingFangSC, sans-serif;
+  }
+}
